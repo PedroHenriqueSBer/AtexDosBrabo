@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atex", "Atex.csproj", "{56CCC6FA-E9B3-4D2F-BFEB-EB56928AC9E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56CCC6FA-E9B3-4D2F-BFEB-EB56928AC9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CCC6FA-E9B3-4D2F-BFEB-EB56928AC9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CCC6FA-E9B3-4D2F-BFEB-EB56928AC9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CCC6FA-E9B3-4D2F-BFEB-EB56928AC9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82B17A0D-9013-4270-B9D0-EC15F04D9B81}
+	EndGlobalSection
+EndGlobal
