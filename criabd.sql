@@ -37,7 +37,7 @@ CREATE TABLE perguntas(
   FOREIGN KEY(id_App) REFERENCES app (id_App)
 );
 CREATE TABLE respostas(
-  id_Resposta INT NOT NULL,
+  id_Resposta INT NOT NULL AUTO_INCREMENT,
   resposta TEXT NOT NULL,
   id_Cliente INT NOT NULL,
   id_Pergunta INT NOT NULL,
@@ -105,6 +105,7 @@ INSERT INTO perguntas
 VALUE(13,'Quanto tempo você joga por dia?',4);
 INSERT INTO perguntas
 VALUE(14,'Em qual nível você está?',4);
+INSERT INTO perguntas
 VALUE(15,'Qual o objetivo do jogo?',4);
 INSERT INTO perguntas
 VALUE(16,'Já ganhou alguma vez? Se sim quantas vezes mais ou menos?',4);
@@ -128,38 +129,38 @@ VALUE(24,'seus pais compram itens do jogo?',6);
 
 #Roblox
 INSERT INTO perguntas
-VALUE(17,'Voce joga quanto tempo por dia?',7);
+VALUE(25,'Voce joga quanto tempo por dia?',7);
 INSERT INTO perguntas
-VALUE(18,'Qual seu jogo favorito no roblox?',7);
+VALUE(26,'Qual seu jogo favorito no roblox?',7);
 INSERT INTO perguntas
-VALUE(19,'Voce joga com amigo? como se conheceram',7);
+VALUE(27,'Voce joga com amigo? como se conheceram',7);
 INSERT INTO perguntas
-VALUE(20,'como é a sua comunicação com outros jogadores?',7);
+VALUE(28,'como é a sua comunicação com outros jogadores?',7);
 INSERT INTO perguntas
-VALUE(21,'algum jogador foi desrespeitoso com voce? se sim como reagiu?',7);
+VALUE(29,'algum jogador foi desrespeitoso com voce? se sim como reagiu?',7);
 INSERT INTO perguntas
-VALUE(22,'o que voce fez de mais legal no roblox?',7);
+VALUE(30,'o que voce fez de mais legal no roblox?',7);
 INSERT INTO perguntas
-VALUE(23,'quais sao os itens ou acessorios que voce mais usa?',7);
+VALUE(31,'quais sao os itens ou acessorios que voce mais usa?',7);
 INSERT INTO perguntas
-VALUE(24,'como voce se sente no roblox, o que voce mais gosta de fazer no jogo?',7);
+VALUE(32,'como voce se sente no roblox, o que voce mais gosta de fazer no jogo?',7);
 #Redes sociais
 #YouTube
 INSERT INTO perguntas
-VALUE(14,'Quanto tempo por dia você fica no YouTube?',2);
+VALUE(33,'Quanto tempo por dia você fica no YouTube?',2);
 INSERT INTO perguntas
-VALUE(15,'Cite o canal que você mais gosta',2);
+VALUE(34,'Cite o canal que você mais gosta',2);
 INSERT INTO perguntas
-VALUE(16,'Qual o conteúdo desse canal?',2);
+VALUE(35,'Qual o conteúdo desse canal?',2);
 INSERT INTO perguntas
-VALUE(17,'Recomende um vídeo',2);
+VALUE(36,'Recomende um vídeo',2);
 
 #TikTok
 INSERT INTO perguntas
-VALUE(18,'Quanto tempo por dia você fica no TikTok?',5);
+VALUE(37,'Quanto tempo por dia você fica no TikTok?',5);
 INSERT INTO perguntas
-VALUE(19,'Vídeos de quem mais aparecem para você?',5);
+VALUE(38,'Vídeos de quem mais aparecem para você?',5);
 INSERT INTO perguntas
-VALUE(20,'Qual o conteúdo desse canal?',5);
+VALUE(39,'Qual o conteúdo desse canal?',5);
 INSERT INTO perguntas
-VALUE(21,'Recomende um vídeo',5);
+VALUE(40,'Recomende um vídeo',5);
