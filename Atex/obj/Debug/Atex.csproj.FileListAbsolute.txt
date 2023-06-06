@@ -1,0 +1,5 @@
+C:\Users\Kctinho\Documents\GitHub\AtexDosBrabo\Atex\obj\Debug\Atex.csproj.AssemblyReference.cache
+C:\Users\Kctinho\Documents\GitHub\AtexDosBrabo\Atex\obj\Debug\Atex.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kctinho\Documents\GitHub\AtexDosBrabo\Atex\obj\Debug\Atex.Properties.Resources.resources
+C:\Users\Kctinho\Documents\GitHub\AtexDosBrabo\Atex\obj\Debug\Atex.csproj.GenerateResource.cache
+C:\Users\Kctinho\Documents\GitHub\AtexDosBrabo\Atex\obj\Debug\Atex.csproj.CoreCompileInputs.cache
